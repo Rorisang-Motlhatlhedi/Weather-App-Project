@@ -1,4 +1,4 @@
-const apiKey = "bd5f74ebd2d518f1668e012a3ca33b7b";
+const apiKey = "YOUR_API_KEY";
 
 // 🌙 Theme toggle
 document.getElementById("toggleTheme").onclick = () => {
