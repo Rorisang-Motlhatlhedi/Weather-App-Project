@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="card">
+    <div class="top-bar">
+      <h1>🌤 Weather</h1>
+      <button id="toggleTheme">🌙</button>
+    </div>
+
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Search city...">
+      <button onclick="getWeather()">🔍</button>
+      <button onclick="startVoice()">🎤</button>
+    </div>
+
+    <div id="weatherResult"></div>
+    <div id="forecast"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
